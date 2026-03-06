@@ -1,0 +1,5 @@
+{
+  "name": "Translate Pro App Builder",
+  "description": "Ionic & Capacitor app generator for Translate Pro with AdMob and Firebase integration.",
+  "requestFramePermissions": []
+}
