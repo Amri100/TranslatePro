@@ -266,6 +266,22 @@ const config: CapacitorConfig = {
 export default config;`
     },
     {
+      name: 'capacitor.config.json',
+      icon: <FileJson className="w-4 h-4" />,
+      language: 'json',
+      content: `{
+  "appId": "${config.appId}",
+  "appName": "${config.appName}",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    }
+  }
+}`
+    },
+    {
       name: 'android/app/google-services.json',
       icon: <FileJson className="w-4 h-4" />,
       language: 'json',
